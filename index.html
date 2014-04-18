@@ -1,13 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-	<meta charset="utf-8" />
-	<meta name="description" content="descripcion" />
-	<title>Titulo</title>
-	<link rel="stylesheet" href="css/styles.min.css" />
-	<script src="js/scripts.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Gulp Starter Template</title>
+	<link rel="stylesheet" href="css/styles.css">
+<style>
+	div[class*="large"]:nth-child(2n+1){background-color: #ccc;}
+	div[class*="large"]:nth-child(2n){background-color: #bbb;}
+	div[class*="small"]:nth-child(2n+1){background-color: #ccc;}
+	div[class*="small"]:nth-child(2n){background-color: #bbb;}
+</style>
 </head>
 <body>
-	<div class="box">Gulp Starter Template</div>
+	<div class="row">
+		<div class="large-1 small-6">l-1 s-6</div>
+		<div class="large-11 small-6">l-11 s-6</div>
+	</div>
+	<div class="row">
+		<div class="large-3 small-1">l-3 s-1</div>
+		<div class="large-3 small-3">l-3 s-3</div>
+		<div class="large-3 small-2">l-3 s-2</div>
+		<div class="large-3 small-6">l-3 s-6</div>
+	</div>
 </body>
 </html>
