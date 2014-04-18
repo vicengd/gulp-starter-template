@@ -15,27 +15,19 @@ You will require [node](http://nodejs.org) and [npm](https://npmjs.org) installe
 ## Usage
 1. Install global gulp
 
-```
-sudo npm install gulp -g
-```
+	sudo npm install gulp -g
 
 2. Clone this repository in your working directory
 
-```
-git clone git@github.com:vicentegarcia/gulp-starter-template.git
-```
+	git clone git@github.com:vicentegarcia/gulp-starter-template.git
 
 3. Install dependencies
 
-```
-npm install
-```
+	npm install
 
 4. Start watching files for changes and run server
 
-```
-gulp
-```
+	gulp
 
 A connect static http server runs over port 3002.
 The editable files are in /src folder.
