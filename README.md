@@ -8,6 +8,7 @@ A Gulp.js starter template for development.
 * Minify and copy CSS files.
 * Auto reload all browsers with browser-sync when files change.
 * Serves the static files to localhost:3002
+* A responsive CSS Grid
 
 ## Prerequisites
 You will require [node](http://nodejs.org) and [npm](https://npmjs.org) installed.
