@@ -23,16 +23,22 @@ You will require [node](http://nodejs.org) and [npm](https://npmjs.org) installe
 2. Clone this repository in your working directory
 
 	```
-		git clone git@github.com:vicentegarcia/gulp-starter-template.git
+		git clone git@github.com:vicentegarcia/gulp-starter-template.git <project_name>
 	```
 
-3. Install dependencies
+3. Change to the directory project_name
 
 	```
-		npm install
+		cd <project_name>
 	```
 
-4. Start watching files for changes and run server
+4. Install dependencies
+
+	```
+		npm install gulp gulp-minify-css gulp-rename gulp-sass gulp-uglify browser-sync --save-dev
+	```
+
+5. Start watching files for changes and run server
 
 	```
 		gulp
