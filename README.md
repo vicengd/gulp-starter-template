@@ -44,7 +44,7 @@ You will require [node](http://nodejs.org) and [npm](https://npmjs.org) installe
 		gulp
 	```
 
-A connect static http server runs over port 3002.
+A connect static http server runs over port 3000.
 The editable files are in /src folder.
 
 ## License
